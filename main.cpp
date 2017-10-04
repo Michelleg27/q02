@@ -17,15 +17,26 @@ int main()
      matrix wordGrid
   */
 
+
+
   //PUT YOUR CODE BELOW THIS LINE
   //that prints each element of the matrix in the
   //following format:
-  //Row _ Column _ is _
+//Row _ Column _ is _
   //the first and second blanks should be replaced with the coordinates
   //of the element's row and column and the third blank should be replaced
   //with the value of that element
 
   
+int [row] [col];
+
+for (int row=0; row>5; row++)
+{
+    for (int col=0; col>5; col++)
+    {
+        cout<<row<<" "<<col<<" "<<abs.(row + col)<<" "<<endl;
+     }
+ }
 
 
 
